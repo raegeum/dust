@@ -10,7 +10,7 @@ st.title("😷 서울시 구별 (초)미세먼지 시각화 대시보드")
 # 2. 데이터 로드 및 전처리 함수 (UI 요소 분리)
 @st.cache_data
 def load_data():
-    file_name = "dustdata.csv"
+    file_name = "dust.csv"
     
     # [진단 1] 파일 존재 여부 확인
     if not os.path.exists(file_name):
